@@ -1,6 +1,9 @@
 <template>
   <div id="app">
-    <Header/>
+    <header>
+      <DcWorld/>
+      <Header/>
+    </header>
     <main>
         <Hero/>
         <Utilities/>
@@ -17,6 +20,7 @@
 </template>
 
 <script>
+import DcWorld from '@/components/DcWorld.vue';
 import Header from '@/components/Header.vue';
 import Hero from '@/components/Hero.vue';
 import Utilities from '@/components/Utilities.vue';
@@ -27,6 +31,7 @@ import Social from '@/components/Social.vue';
 export default {
   name: 'App',
   components: {
+    DcWorld,
     Header,
     Hero,
     Utilities,
@@ -43,7 +48,6 @@ export default {
     box-sizing: border-box;
     background-color: #000;
     height: 100vh;
-    padding-top: 30px;
     font-family: 'Open Sans Condensed', sans-serif;
   }
 
