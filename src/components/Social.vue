@@ -13,11 +13,11 @@
                     <div class="special-row-3">
                         <h3>FOLLOW US</h3>
                         <ul class="special-row-3">
-                            <li><img src="@/assets/img/footer-facebook.png" alt="facebook"></li>
-                            <li><img src="@/assets/img/footer-twitter.png" alt="twitter"></li>
-                            <li><img src="@/assets/img/footer-youtube.png" alt="youtube"></li>
-                            <li><img src="@/assets/img/footer-pinterest.png" alt="pinterest"></li>
-                            <li><img src="@/assets/img/footer-periscope.png" alt="periscope"></li>
+                            <li class="clickable"><img src="@/assets/img/footer-facebook.png" alt="facebook"></li>
+                            <li class="clickable"><img src="@/assets/img/footer-twitter.png" alt="twitter"></li>
+                            <li class="clickable"><img src="@/assets/img/footer-youtube.png" alt="youtube"></li>
+                            <li class="clickable"><img src="@/assets/img/footer-pinterest.png" alt="pinterest"></li>
+                            <li class="clickable"><img src="@/assets/img/footer-periscope.png" alt="periscope"></li>
                         </ul>
                     </div>
                     
@@ -50,6 +50,10 @@ export default {
         text-align: center;
     }
 
+    #sign-up-box:hover {
+        background-color: #0282F9;
+    }
+
     #sign-up-box h4 {
         margin: 0;
         padding: 0;
@@ -71,6 +75,10 @@ export default {
 
     ul li {
         margin: 0 10px;
+    }
+
+    li:hover img {
+        opacity: 0.8;
     }
 
 </style>
