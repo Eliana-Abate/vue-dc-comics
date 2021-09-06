@@ -44,9 +44,10 @@ export default {
 
 <style scoped>
     #utilities {
-        background-color: #0282f9;
+        background-color: #0282F9;
         padding: 50px 0;
         font-family: sans-serif;
+        font-weight: 500;
         text-transform: uppercase;
         color: #fff;
     }

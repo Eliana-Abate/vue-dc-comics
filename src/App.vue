@@ -5,6 +5,11 @@
         <Hero/>
         <Utilities/>
     </main>
+    <footer>
+      <Footer/>
+    </footer>
+
+    
     
    
   </div>
@@ -14,6 +19,7 @@
 import Header from '@/components/Header.vue';
 import Hero from '@/components/Hero.vue';
 import Utilities from '@/components/Utilities.vue';
+import Footer from '@/components/Footer.vue';
 
 
 export default {
@@ -22,6 +28,7 @@ export default {
     Header,
     Hero,
     Utilities,
+    Footer,
     
   }
 }
@@ -36,7 +43,10 @@ export default {
     padding: 30px 0;
     font-family: 'Open Sans Condensed', sans-serif;
   }
-  
+
+ 
+
+
   //UTILITIES
   .container {
     max-width: 1200px;
@@ -54,6 +64,10 @@ export default {
 
   .col-40 {
         flex-basis: calc(100% * 40 / 100);
+    }
+  
+  .col-50 {
+        flex-basis: calc(100% * 50 / 100);
     }
 
   .col-60 {

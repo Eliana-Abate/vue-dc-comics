@@ -4,18 +4,51 @@
             <div class="row h-100">
 
                 <div class="col-50">
-                    <nav>
-                        <ul class="row">
-                            <li v-for = "(link, index) in links" :key="index"><a :href="link.url">{{link.text}}</a></li>
+                    <nav class="special-row-2">
+                        <div class="col-20">
+                            <ul>DC COMICS
+                                <li class="mg-top-10"><a href="#">Characters</a></li>
+                                <li><a href="#">Comics</a></li>
+                                <li><a href="#">Movies</a></li>
+                                <li><a href="#">TV</a></li>
+                                <li><a href="#">Games</a></li>
+                                <li><a href="#">Videos</a></li>
+                                <li><a href="#">News</a></li>
+                            </ul> 
+
+                            <ul class="mg-top-20">SHOP
+                                <li class="mg-top-10"><a href="#">Shop Dc</a></li>
+                                <li><a href="#">Shop Dc Collectibles</a></li>
+                            </ul>
+                        </div>
+                    
+
+                        <ul class="col-20">DC
+                            <li class="mg-top-10"><a href="#">Terms of Use</a></li>
+                            <li><a href="#">Privacy policy (New)</a></li>
+                            <li><a href="#">Ad Choices</a></li>
+                            <li><a href="#">Advertising</a></li>
+                            <li><a href="#">Jobs</a></li>
+                            <li><a href="#">Subscriptions</a></li>
+                            <li><a href="#">Talent Workshops</a></li>
+                            <li><a href="#">CPSC Certificates</a></li>
+                            <li><a href="#">Ratings</a></li>
+                            <li><a href="#">Shop Help</a></li>
+                            <li><a href="#">Contact Us</a></li>
+                        </ul>
+
+                        <ul class="col-20">SITES
+                            <li class="mg-top-10"><a href="#">DC</a></li>
+                            <li><a href="#">MAD Magazine</a></li>
+                            <li><a href="#">DC Kids</a></li>
+                            <li><a href="#">DC Universe</a></li>  
+                            <li><a href="#">DC Power Visa</a></li> 
                         </ul>
                     </nav>
                 </div>
 
-                <div id="dc-logo-section" class="col-50">
-                    <div id="dc-logo-bg">
-                        <img src="@/assets/img/dc-logo-bg.png" alt="">
-                    </div>
-                </div>
+                <div id="dc-logo-section" class="col-50"></div>
+
             </div> 
         </div>
     </section>
@@ -38,7 +71,42 @@ export default {
     }
 
     #dc-logo-section {
-       padding-top: 50px;
+       height: 100%;
+       background-image: url('../assets/img/dc-logo-bg.png');
+       background-repeat: no-repeat;
+       background-size: auto;
+       background-position-y: -90px;
+    }
+
+    .special-row-2 {
+        display: flex;
+        justify-content: start;
+    }
+
+    ul {
+        margin: 0;
+        padding: 0;
+        margin-right: 20px;
+        list-style-type: none;
+        color: #fff; 
+        font-weight: 600; 
+        font-size: 1.1em; 
+    }
+
+    ul li a {
+        text-decoration: none;
+        color: #95938f;
+        font-family: sans-serif;
+        font-weight: 400;
+        font-size: 0.7em; 
+    }
+
+    .mg-top-10 {
+        margin-top: 10px;
+    }
+
+    .mg-top-20 {
+        margin-top: 20px;
     }
 
 
