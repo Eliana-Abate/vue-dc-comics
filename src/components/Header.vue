@@ -86,34 +86,35 @@ export default {
 }
 </script>
 
-<style scoped>
+<style lang="scss" scoped>
     #main-header {
         background-color: #fff;
         height: 120px;
+
+        #header-logo {
+            img {
+                width: 80px;
+            }  
+        }
     }
 
-    img {
-        width: 80px;  
-    }
-
-    li {
+    ul {
+        li {
         height: 120px;
         display: flex;
         flex-direction: column;
         justify-content: center;
         position: relative;
+        
+            a {
+            color:  #464646;
+            padding: 15px;
+            text-transform: uppercase;
+            text-align: center;
+            }
+        }
     }
-
-    ul li a {
-        color:  #464646;
-        padding: 15px;
-        text-transform: uppercase;
-        text-align: center;
-    }
-
-    .active {
-        color: #0282F9;
-    }
+    
 
     .notch {
         width: 40px;

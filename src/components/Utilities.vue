@@ -42,7 +42,7 @@ export default {
 }
 </script>
 
-<style scoped>
+<style lang="scss" scoped>
     #utilities {
         background-color: #0282F9;
         padding: 50px 0;

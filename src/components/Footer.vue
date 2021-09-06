@@ -62,7 +62,7 @@ export default {
 }
 </script>
 
-<style scoped>
+<style lang="scss" scoped>
     #footer-links {
         background-image: url('../assets/img/footer-bg.jpg');
         background-repeat: no-repeat;
@@ -84,15 +84,16 @@ export default {
         color: #fff; 
         font-weight: 600; 
         font-size: 1.1em; 
+
+        li a {
+            color: #95938f;
+            font-family: sans-serif;
+            font-weight: 400;
+            font-size: 0.7em; 
+        }
     }
 
-    ul li a {
-        color: #95938f;
-        font-family: sans-serif;
-        font-weight: 400;
-        font-size: 0.7em; 
-    }
-
+    
     a:hover {
         color: #0282F9;
     }

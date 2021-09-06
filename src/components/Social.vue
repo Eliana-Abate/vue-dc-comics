@@ -33,7 +33,7 @@ export default {
 }
 </script>
 
-<style scoped>
+<style lang="scss" scoped>
     #social {
         background-color: #303030;
         padding: 30px 0;
@@ -45,19 +45,19 @@ export default {
         color: #fff;
         border: 2px solid #0282F9;
         text-align: center;
+
+        h4 {
+            margin: 0;
+            padding: 0;
+        }
     }
 
     #sign-up-box:hover {
         background-color: #0282F9;
     }
 
-    #sign-up-box h4 {
-        margin: 0;
-        padding: 0;
-    }
 
-
-    .special-row-3 h3 {
+    h3 {
         color: #0282F9;
         margin: 0px 20px;
     }

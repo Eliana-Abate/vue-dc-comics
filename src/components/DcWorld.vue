@@ -12,7 +12,7 @@ export default {
 }
 </script>
 
-<style>
+<style lang="scss" scoped>
     #dc-world-links {
         height: 35px;
         background-color: #0282F9;
