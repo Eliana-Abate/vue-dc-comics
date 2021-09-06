@@ -5,7 +5,7 @@
 
                 <div class="col-50">
                     <nav class="special-row-2">
-                        <div class="col-20">
+                        <div class="col-25">
                             <ul>DC COMICS
                                 <li class="mg-top-10"><a href="#">Characters</a></li>
                                 <li><a href="#">Comics</a></li>
@@ -23,7 +23,7 @@
                         </div>
                     
 
-                        <ul class="col-20">DC
+                        <ul class="col-25">DC
                             <li class="mg-top-10"><a href="#">Terms of Use</a></li>
                             <li><a href="#">Privacy policy (New)</a></li>
                             <li><a href="#">Ad Choices</a></li>
@@ -37,7 +37,7 @@
                             <li><a href="#">Contact Us</a></li>
                         </ul>
 
-                        <ul class="col-20">SITES
+                        <ul class="col-25">SITES
                             <li class="mg-top-10"><a href="#">DC</a></li>
                             <li><a href="#">MAD Magazine</a></li>
                             <li><a href="#">DC Kids</a></li>
@@ -78,23 +78,15 @@ export default {
        background-position-y: -90px;
     }
 
-    .special-row-2 {
-        display: flex;
-        justify-content: start;
-    }
 
     ul {
-        margin: 0;
-        padding: 0;
         margin-right: 20px;
-        list-style-type: none;
         color: #fff; 
         font-weight: 600; 
         font-size: 1.1em; 
     }
 
     ul li a {
-        text-decoration: none;
         color: #95938f;
         font-family: sans-serif;
         font-weight: 400;
@@ -104,15 +96,4 @@ export default {
     a:hover {
         color: #0282F9;
     }
-
-    .mg-top-10 {
-        margin-top: 10px;
-    }
-
-    .mg-top-20 {
-        margin-top: 20px;
-    }
-
-
-
 </style>
