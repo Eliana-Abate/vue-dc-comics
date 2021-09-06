@@ -10,7 +10,12 @@
                 <div class="col-60">
                     <nav>
                         <ul class="row">
-                            <li v-for = "(link, index) in links" :key="index"><a :href="link.url">{{link.text}}</a></li>
+                            <li v-for = "(link, index) in links" :key="index">
+                                <a :href="link.url">{{link.text}}</a>
+                                <div class="li-box">
+                                    <div class="notch"></div>
+                                </div>  
+                            </li>
                         </ul>
                     </nav>
                 </div>
@@ -96,12 +101,47 @@ export default {
 
     ul {
         list-style-type: none;   
+        height: 120px;
+        margin: 0;
+        padding: 0;
     }
+
+    li {
+        height: 120px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        position: relative;
+    }
+
 
     ul li a {
         text-decoration: none;
         color:  #464646;
         padding: 15px;
         text-transform: uppercase;
+        text-align: center;
     }
+
+    li:hover a {
+        color: #0282F9;
+    }
+
+    .notch {
+        width: 40px;
+        height: 4px;
+        background-color: #0282F9;  
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        visibility: hidden;
+    }
+
+    li:hover .notch {
+        visibility: visible;
+    }
+    
+    
+    
 </style>
