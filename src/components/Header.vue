@@ -1,18 +1,22 @@
 <template>
-  <header class="row">
-      <div id="header-logo">
-          <img src="@/assets/img/dc-logo.png" alt="dc-logo">
-      </div>
+    <header>
+        <section class="container h-100">
+            <div class="row h-100">
 
-      <div>
-          <nav>
-              <ul>
-                  <li v-for = "(link, index) in links" :key="index"><a :href="link.url">{{link.text}}</a></li>
-              </ul>
-          </nav>
-      </div>
+                <div id="header-logo" class="col-40 row">
+                    <img src="@/assets/img/dc-logo.png" alt="dc-logo">
+                </div>
 
-  </header>
+                <div class="col-60">
+                    <nav>
+                        <ul class="row">
+                            <li v-for = "(link, index) in links" :key="index"><a :href="link.url">{{link.text}}</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div> 
+        </section>
+    </header>
 </template>
 
 <script>
@@ -79,10 +83,27 @@ export default {
 }
 </script>
 
-<style>
+<style scoped>
     header {
         background-color: #fff;
         height: 120px;
+        font-family: 'Open Sans Condensed', sans-serif;
+    }
+
+    img {
+        width: 80px;
+       
+    }
+
+    ul {
+        list-style-type: none;   
+    }
+
+    ul li a {
+        text-decoration: none;
+        color:  #464646;
+        padding: 15px;
+        text-transform: uppercase;
     }
 
 </style>
