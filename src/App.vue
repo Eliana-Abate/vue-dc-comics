@@ -20,16 +20,20 @@ export default {
 </script>
 
 <style lang="scss">
-body {
-  margin: 0;
-  box-sizing: border-box;
-  background-color: #000;
-  height: 100vh;
-  padding: 30px 0;
-}
+  body {
+    margin: 0;
+    box-sizing: border-box;
+    background-color: #000;
+    height: 100vh;
+    padding: 30px 0;
+  }
 
-.container {
-  max-width: 1200px;
-  margin: auto;
-}
+  .container {
+    max-width: 1200px;
+    margin: auto;
+  }
+
+  .row {
+        display: flex;
+    }
 </style>
