@@ -1,6 +1,9 @@
 <template>
   <div id="app">
     <Header/>
+    <main>
+
+    </main>
     
    
   </div>
@@ -26,6 +29,7 @@ export default {
     background-color: #000;
     height: 100vh;
     padding: 30px 0;
+    font-family: 'Open Sans Condensed', sans-serif;
   }
   
   //UTILITIES

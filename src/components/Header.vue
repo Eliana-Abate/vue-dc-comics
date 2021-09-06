@@ -87,7 +87,6 @@ export default {
     header {
         background-color: #fff;
         height: 120px;
-        font-family: 'Open Sans Condensed', sans-serif;
     }
 
     img {
