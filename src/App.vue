@@ -23,5 +23,6 @@ export default {
 body {
   background-color: #000;
   height: 100vh;
+  padding: 20px 0;
 }
 </style>
