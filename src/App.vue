@@ -81,5 +81,9 @@ export default {
     height: 100%;
   }
 
+  .clickable {
+    cursor: pointer;
+  }
+
  
 </style>
