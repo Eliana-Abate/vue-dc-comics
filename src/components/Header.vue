@@ -1,6 +1,6 @@
 <template>
-    <header>
-        <section class="container h-100">
+    <section id="main-header">
+        <div class="container h-100">
             <div class="row h-100">
 
                 <div id="header-logo" class="col-40 row">
@@ -18,8 +18,8 @@
                     </nav>
                 </div>
             </div> 
-        </section>
-    </header>
+        </div>
+    </section>
 </template>
 
 <script>
@@ -87,7 +87,7 @@ export default {
 </script>
 
 <style scoped>
-    header {
+    #main-header {
         background-color: #fff;
         height: 120px;
     }
