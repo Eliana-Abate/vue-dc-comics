@@ -43,51 +43,5 @@ export default {
 </script>
 
 <style lang="scss">
-  body {
-    margin: 0;
-    box-sizing: border-box;
-    background-color: #000;
-    height: 100vh;
-    font-family: 'Open Sans Condensed', sans-serif;
-  }
-
- 
-
-
-  //UTILITIES
-  .container {
-    max-width: 1200px;
-    margin: auto;
-  }
-
-  .row {
-        display: flex;
-        align-items: center;
-    }
-
-  .col-20 {
-        flex-basis: calc(100% * 20 / 100);
-    }
-
-  .col-40 {
-        flex-basis: calc(100% * 40 / 100);
-    }
-  
-  .col-50 {
-        flex-basis: calc(100% * 50 / 100);
-    }
-
-  .col-60 {
-        flex-basis: calc(100% * 60 / 100);
-    }
-  
-  .h-100 {
-    height: 100%;
-  }
-
-  .clickable {
-    cursor: pointer;
-  }
-
- 
+  @import "@/assets/scss/style.scss"
 </style>

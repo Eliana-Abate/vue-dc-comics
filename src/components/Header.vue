@@ -93,15 +93,7 @@ export default {
     }
 
     img {
-        width: 80px;
-       
-    }
-
-    ul {
-        list-style-type: none;   
-        height: 120px;
-        margin: 0;
-        padding: 0;
+        width: 80px;  
     }
 
     li {
@@ -112,9 +104,7 @@ export default {
         position: relative;
     }
 
-
     ul li a {
-        text-decoration: none;
         color:  #464646;
         padding: 15px;
         text-transform: uppercase;
@@ -134,8 +124,4 @@ export default {
         left: 50%;
         transform: translateX(-50%);
     }
-
-    
-    
-    
 </style>

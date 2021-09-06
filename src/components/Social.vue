@@ -20,9 +20,6 @@
                             <li class="clickable"><img src="@/assets/img/footer-periscope.png" alt="periscope"></li>
                         </ul>
                     </div>
-                    
-                        
-                    
                 </div>
             </div> 
         </div>
@@ -39,7 +36,7 @@ export default {
 <style scoped>
     #social {
         background-color: #303030;
-        padding: 20px 0;
+        padding: 30px 0;
     }
 
     #sign-up-box {
@@ -59,19 +56,12 @@ export default {
         padding: 0;
     }
 
-    .special-row-3 {
-        display: flex;
-        align-items: center;
-        justify-content: flex-end;
-    }
 
     .special-row-3 h3 {
         color: #0282F9;
+        margin: 0px 20px;
     }
     
-    ul {
-        list-style-type: none;   
-    }
 
     ul li {
         margin: 0 10px;

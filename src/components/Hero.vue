@@ -20,5 +20,4 @@ export default {
         font-size: 2em;
         padding: 30px 0;
     }
-
 </style>
