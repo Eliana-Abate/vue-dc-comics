@@ -11,10 +11,8 @@
                     <nav>
                         <ul class="row">
                             <li v-for = "(link, index) in links" :key="index">
-                                <a :href="link.url">{{link.text}}</a>
-                                <div class="li-box">
-                                    <div class="notch"></div>
-                                </div>  
+                                <a :href="link.url" :class="{active: link.current}">{{link.text}}</a>
+                                <div :class="{notch: link.current}"></div>
                             </li>
                         </ul>
                     </nav>
@@ -123,7 +121,7 @@ export default {
         text-align: center;
     }
 
-    li:hover a {
+    .active {
         color: #0282F9;
     }
 
@@ -135,12 +133,8 @@ export default {
         bottom: 0;
         left: 50%;
         transform: translateX(-50%);
-        visibility: hidden;
     }
 
-    li:hover .notch {
-        visibility: visible;
-    }
     
     
     
