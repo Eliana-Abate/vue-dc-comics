@@ -104,5 +104,4 @@ export default {
         padding: 15px;
         text-transform: uppercase;
     }
-
 </style>

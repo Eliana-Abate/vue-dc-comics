@@ -7,6 +7,7 @@
     </main>
     <footer>
       <Footer/>
+      <Social/>
     </footer>
 
     
@@ -20,6 +21,7 @@ import Header from '@/components/Header.vue';
 import Hero from '@/components/Hero.vue';
 import Utilities from '@/components/Utilities.vue';
 import Footer from '@/components/Footer.vue';
+import Social from '@/components/Social.vue';
 
 
 export default {
@@ -29,6 +31,7 @@ export default {
     Hero,
     Utilities,
     Footer,
+    Social,
     
   }
 }
@@ -40,7 +43,7 @@ export default {
     box-sizing: border-box;
     background-color: #000;
     height: 100vh;
-    padding: 30px 0;
+    padding-top: 30px;
     font-family: 'Open Sans Condensed', sans-serif;
   }
 
