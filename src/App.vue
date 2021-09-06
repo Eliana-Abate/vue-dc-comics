@@ -3,6 +3,7 @@
     <Header/>
     <main>
         <Hero/>
+        <Utilities/>
     </main>
     
    
@@ -12,6 +13,7 @@
 <script>
 import Header from '@/components/Header.vue';
 import Hero from '@/components/Hero.vue';
+import Utilities from '@/components/Utilities.vue';
 
 
 export default {
@@ -19,6 +21,7 @@ export default {
   components: {
     Header,
     Hero,
+    Utilities,
     
   }
 }
@@ -45,6 +48,10 @@ export default {
         align-items: center;
     }
 
+  .col-20 {
+        flex-basis: calc(100% * 20 / 100);
+    }
+
   .col-40 {
         flex-basis: calc(100% * 40 / 100);
     }
@@ -56,4 +63,6 @@ export default {
   .h-100 {
     height: 100%;
   }
+
+ 
 </style>
