@@ -21,8 +21,15 @@ export default {
 
 <style lang="scss">
 body {
+  margin: 0;
+  box-sizing: border-box;
   background-color: #000;
   height: 100vh;
-  padding: 20px 0;
+  padding: 30px 0;
+}
+
+.container {
+  max-width: 1200px;
+  margin: auto;
 }
 </style>
