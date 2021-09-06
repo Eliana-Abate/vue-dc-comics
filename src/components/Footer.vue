@@ -101,6 +101,10 @@ export default {
         font-size: 0.7em; 
     }
 
+    a:hover {
+        color: #0282F9;
+    }
+
     .mg-top-10 {
         margin-top: 10px;
     }
