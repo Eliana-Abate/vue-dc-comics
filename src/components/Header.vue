@@ -115,6 +115,9 @@ export default {
         }
     }
     
+    .active {
+        color: #0282F9;
+    }
 
     .notch {
         width: 40px;
