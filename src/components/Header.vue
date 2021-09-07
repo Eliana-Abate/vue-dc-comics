@@ -111,13 +111,14 @@ export default {
             padding: 15px;
             text-transform: uppercase;
             text-align: center;
+            &.active {
+                 color: #0282F9;
+                }
             }
         }
     }
     
-    .active {
-        color: #0282F9;
-    }
+   
 
     .notch {
         width: 40px;

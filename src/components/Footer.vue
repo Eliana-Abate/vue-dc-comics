@@ -6,8 +6,9 @@
                 <div class="col-50">
                     <nav class="special-row-2">
                         <div class="col-25">
-                            <ul>DC COMICS
-                                <li class="mg-top-10"><a href="#">Characters</a></li>
+                            <h4>DC COMICS</h4>
+                            <ul>
+                                <li><a href="#">Characters</a></li>
                                 <li><a href="#">Comics</a></li>
                                 <li><a href="#">Movies</a></li>
                                 <li><a href="#">TV</a></li>
@@ -16,34 +17,41 @@
                                 <li><a href="#">News</a></li>
                             </ul> 
 
-                            <ul class="mg-top-20">SHOP
-                                <li class="mg-top-10"><a href="#">Shop Dc</a></li>
+                            <h4>DC SHOP</h4>
+                            <ul>
+                                <li><a href="#">Shop Dc</a></li>
                                 <li><a href="#">Shop Dc Collectibles</a></li>
                             </ul>
                         </div>
                     
-
-                        <ul class="col-25">DC
-                            <li class="mg-top-10"><a href="#">Terms of Use</a></li>
-                            <li><a href="#">Privacy policy (New)</a></li>
-                            <li><a href="#">Ad Choices</a></li>
-                            <li><a href="#">Advertising</a></li>
-                            <li><a href="#">Jobs</a></li>
-                            <li><a href="#">Subscriptions</a></li>
-                            <li><a href="#">Talent Workshops</a></li>
-                            <li><a href="#">CPSC Certificates</a></li>
-                            <li><a href="#">Ratings</a></li>
-                            <li><a href="#">Shop Help</a></li>
-                            <li><a href="#">Contact Us</a></li>
-                        </ul>
-
-                        <ul class="col-25">SITES
-                            <li class="mg-top-10"><a href="#">DC</a></li>
-                            <li><a href="#">MAD Magazine</a></li>
-                            <li><a href="#">DC Kids</a></li>
-                            <li><a href="#">DC Universe</a></li>  
-                            <li><a href="#">DC Power Visa</a></li> 
-                        </ul>
+                        <div class="col-25">
+                            <h4>DC</h4>
+                            <ul>
+                                <li><a href="#">Terms of Use</a></li>
+                                <li><a href="#">Privacy policy (New)</a></li>
+                                <li><a href="#">Ad Choices</a></li>
+                                <li><a href="#">Advertising</a></li>
+                                <li><a href="#">Jobs</a></li>
+                                <li><a href="#">Subscriptions</a></li>
+                                <li><a href="#">Talent Workshops</a></li>
+                                <li><a href="#">CPSC Certificates</a></li>
+                                <li><a href="#">Ratings</a></li>
+                                <li><a href="#">Shop Help</a></li>
+                                <li><a href="#">Contact Us</a></li>
+                            </ul>
+                        </div>
+                        
+                        <div class="col-25">
+                            <h4>SITES</h4>
+                            <ul>
+                                <li><a href="#">DC</a></li>
+                                <li><a href="#">MAD Magazine</a></li>
+                                <li><a href="#">DC Kids</a></li>
+                                <li><a href="#">DC Universe</a></li>  
+                                <li><a href="#">DC Power Visa</a></li> 
+                            </ul>
+                        </div>
+                        
                     </nav>
                 </div>
 
@@ -78,18 +86,23 @@ export default {
        background-position-y: -90px;
     }
 
+    h4 {
+        color: white;
+        margin: 30px 0 0;
+        font-size: 1.1em;
+    }
 
     ul {
+        margin-top: 5px;
         margin-right: 20px;
         color: #fff; 
         font-weight: 600; 
-        font-size: 1.1em; 
 
         li a {
             color: #95938f;
             font-family: sans-serif;
-            font-weight: 400;
-            font-size: 0.7em; 
+            font-weight: 600;
+            font-size: 0.70em; 
         }
     }
 
