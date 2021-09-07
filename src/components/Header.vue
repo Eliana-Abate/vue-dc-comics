@@ -88,12 +88,12 @@ export default {
 
             this.links.forEach((item, i) => {
             
-             item.current = (i == index);
-               /*if (i == index) {
-                   item.current = true;
-               } else {
-                   item.current = false;
-               }*/
+                item.current = (i == index);
+                /*if (i == index) {
+                    item.current = true;
+                } else {
+                    item.current = false;
+                }*/
             });
         },
     },
