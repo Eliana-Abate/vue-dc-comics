@@ -10,7 +10,7 @@
                 <div class="col-60">
                     <nav>
                         <ul class="row">
-                            <li v-for = "(link, index) in links" :key="index" v-on:click = "selectedLink()">
+                            <li v-for = "(link, index) in links" :key="index" v-on:click = "selectedLink(index)">
                                 <a :href="link.url" :class="{active: link.current}">{{link.text}}</a>
                                 <div :class="{notch: link.current}"></div>
                             </li>
@@ -84,22 +84,17 @@ export default {
     },
 
     methods: {
-        selectedLink() {
+        selectedLink: function(index) {
 
-            this.links.forEach((item, index) => {
+            this.links.forEach((item, i) => {
             
-               const currentLink = item.current;
-               const currentIndex = 1;
-
-
-
-               if (index === currentIndex) {
-                   return currentLink === true;
-
+             item.current = (i == index);
+               /*if (i == index) {
+                   item.current = true;
                } else {
-                   return currentLink === false;
-               }
-            }); 
+                   item.current = false;
+               }*/
+            });
         },
     },
 
