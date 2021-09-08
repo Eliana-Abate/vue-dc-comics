@@ -117,7 +117,7 @@ export default {
         display: flex;
         flex-direction: column;
         align-items: center;
-        padding: 60px 0;
+        padding: 50px 0;
 
     } 
 
@@ -130,6 +130,7 @@ export default {
     }
 
     #load-btn {
+        margin-top: 20px;
         padding: 10px 15px;
         width: 200px;
         color: #fff;
