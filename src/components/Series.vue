@@ -1,7 +1,7 @@
 <template>
   <section id="current-series" class="container h-100">
         <div class="series-grid">
-            <SeriesCard/>
+            <SeriesCard v-for="(film, index) in seriesList" :key="index" :film="film"/>
             
         </div>
     </section>
