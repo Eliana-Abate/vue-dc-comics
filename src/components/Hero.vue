@@ -1,10 +1,9 @@
 <template>
-    <section id="jumbotron" class="container h-100">
-        <div class="row">
-            <p> Hero section's content goes here </p>
+    <section id="jumbotron">
+        <div class="container h-100">
+            <div class="row"></div>
         </div>
-    </section>
-  
+    </section> 
 </template>
 
 <script>
@@ -16,8 +15,10 @@ export default {
 
 <style lang="scss" scoped>
     #jumbotron {
-        color: #fff;
-        font-size: 2em;
-        padding: 30px 0;
+        background-image: url('../assets/img/jumbotron.jpg');
+        height: 400px;
+        background-position-x: center;
+        background-size: cover;
+        background-repeat: no-repeat;
     }
 </style>

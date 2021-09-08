@@ -130,7 +130,8 @@ export default {
         justify-content: center;
         align-content: center;
         flex-wrap: wrap;
-        padding: 0 10px;
+        padding: 20px 10px 0;
+        
     }
 
     #series-btn {
