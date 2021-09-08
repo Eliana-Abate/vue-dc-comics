@@ -23,18 +23,12 @@ export default {
         color: white;
         text-transform: uppercase;
         margin: 0px 10px;
+
+        img {
+            width: 100%;
+            height: 59%;
+            object-fit: cover;
+            object-position: top;
+        }
     }
-
-    img {
-        width: 100%;
-        height: 59%;
-        object-fit: cover;
-        object-position: top;
-    }
-
-   
-
-    
-    
-
 </style>
