@@ -112,6 +112,8 @@ export default {
 <style lang="scss" scoped>
     .series-grid {
         display: flex;
+        justify-content: center;
+        align-content: center;
         flex-wrap: wrap;
     }
 
