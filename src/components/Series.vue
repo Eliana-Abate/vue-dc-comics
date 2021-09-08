@@ -1,12 +1,14 @@
 <template>
   <section id="current-series" class="container h-100">
         <div class="series-grid">
+            <SeriesCard/>
             
         </div>
     </section>
 </template>
 
 <script>
+import SeriesCard from '@/components/SeriesCard.vue';
 export default {
     name: "Series",
     data() {
@@ -99,6 +101,9 @@ export default {
             ],
 
         }
+    },
+    components: {
+        SeriesCard,
     }
 
 }
