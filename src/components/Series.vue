@@ -1,7 +1,7 @@
 <template>
   <section id="current-series" class="container h-100">
         <div class="series-grid">
-            <SeriesCard v-for="(film, index) in seriesList" :key="index" :film="film"/>
+            <SeriesCard v-for="(film, index) in seriesList" :key="index" :film="film" :index="index"/>
             
         </div>
     </section>
@@ -115,6 +115,7 @@ export default {
         justify-content: center;
         align-content: center;
         flex-wrap: wrap;
+        padding: 0 10px;
     }
 
 </style>
