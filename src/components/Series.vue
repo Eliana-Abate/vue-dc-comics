@@ -1,6 +1,6 @@
 <template>
   <section id="current-series" class="container h-100">
-        <div class="row">
+        <div class="series-grid">
             
         </div>
     </section>
@@ -104,6 +104,10 @@ export default {
 }
 </script>
 
-<style>
+<style lang="scss" scoped>
+    .series-grid {
+        display: flex;
+        flex-wrap: wrap;
+    }
 
 </style>

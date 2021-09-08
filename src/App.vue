@@ -7,6 +7,7 @@
     <main>
         <Hero/>
         <Series/>
+        <SeriesCard/>
         <Utilities/>
     </main>
     <footer>
@@ -25,6 +26,7 @@ import DcWorld from '@/components/DcWorld.vue';
 import Header from '@/components/Header.vue';
 import Hero from '@/components/Hero.vue';
 import Series from '@/components/Series.vue';
+import SeriesCard from '@/components/SeriesCard.vue';
 import Utilities from '@/components/Utilities.vue';
 import Footer from '@/components/Footer.vue';
 import Social from '@/components/Social.vue';
@@ -37,6 +39,7 @@ export default {
     Header,
     Hero,
     Series,
+    SeriesCard,
     Utilities,
     Footer,
     Social,
