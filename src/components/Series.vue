@@ -1,9 +1,12 @@
 <template>
   <section id="current-series" class="container h-100">
         <div class="series-grid">
-            <SeriesCard v-for="(film, index) in seriesList" :key="index" :film="film" :index="index"/>
-            
+            <SeriesCard v-for="(film, index) in seriesList" :key="index" :film="film" :index="index"/>   
         </div>
+
+        <div id="load-btn">
+            <h4>LOAD MORE</h4>
+        </div> 
     </section>
 </template>
 
@@ -110,12 +113,33 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+    #current-series{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 60px 0;
+
+    } 
+
     .series-grid {
         display: flex;
         justify-content: center;
         align-content: center;
         flex-wrap: wrap;
         padding: 0 10px;
+    }
+
+    #load-btn {
+        padding: 10px 15px;
+        width: 200px;
+        color: #fff;
+        background-color: #0282F9;
+        text-align: center;
+
+        h4 {
+            margin: 0;
+            padding: 0;
+        }
     }
 
 </style>
